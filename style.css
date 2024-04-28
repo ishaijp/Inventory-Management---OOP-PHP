@@ -1,0 +1,299 @@
+*{padding:0; margin:0; outline;0;}
+body{
+front-size:16px;
+line-height:18px;
+font-family:arial;
+}
+.wrapper{
+width:900px;
+margin:0 auto;
+background: #f2f2f2 none repeat scroll 0 0;
+}
+.header, .footer{
+background: #565656 none repeat scroll 0 0;
+padding : 20px;
+text-align: center;
+color : #fff;
+}
+.header h3{
+font-size: 25px;
+padding: 10px;
+}
+.wrap {
+width: 100%; /* Spans the width of the page */
+height: 50px;
+margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+position: relative;
+background-color: #366b82;
+}
+66
+i - Stock Management System
+.navbar {
+height: 50px;
+padding: 0;
+margin: 0;
+position: absolute; /* Ensures that the menu doesn’t affect other elements */
+border-right: 1px solid #54879d;
+}
+.navbar li {
+height: auto;
+width: 99.85px; /* Each menu item is 150px wide */
+float: left; /* This lines up the menu items horizontally */
+text-align: center; /* All text is placed in the center of the box */
+list-style: none; /* Removes the default styling (bullets) for the list */
+font: normal bold 12px/1.2em Arial, Verdana, Helvetica;
+padding: 0;
+margin: 0;
+background-color: #366b82;
+}
+.navbar a {
+padding: 18px 0; /* Adds a padding on the top and bottom so the text appears centered vertically */
+border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background. Combined with the right border, this creates a nice effect. */
+border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background. Combined with the left border, this creates a nice effect. */
+text-decoration: none; /* Removes the default hyperlink styling. */
+color: white; /* Text color is white */
+display: block;
+}
+.navbar li ul {
+display: none; /* Hides the drop-down menu */
+height: auto;
+margin: 0; /* Aligns drop-down box underneath the menu item */
+padding: 0; /* Aligns drop-down box underneath the menu item */
+}
+.navbar li:hover ul {
+display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
+.navbar li ul li {background-color: #54879d;}
+.navbar li ul li a {
+border-left: 1px solid #1f5065;
+border-right: 1px solid #1f5065;
+border-top: 1px solid #74a3b7;
+border-bottom: 1px solid #1f5065;
+}
+.navbar li ul li a:hover {background-color: #366b82;}
+.content{
+border-bottom: 3px solid #c3c3c3;
+67
+i - Stock Management System
+border-top: 3px solid #c3c3c3;
+min-height: 300px;
+overflow: hidden;
+padding: 30px;
+}
+.content h2{
+background: #ddd none repeat scroll 0 0;
+border: 1px solid #c9c9c9;
+color: #444;
+margin-bottom: 20px;
+margin-left: 230px;
+padding: 10px;
+text-align: center;
+width: 350px;
+}
+.chng_pass{}
+.chng_pass h2{
+background: #ddd none repeat scroll 0 0;
+border: 1px solid #c9c9c9;
+color: #444;
+margin-bottom: 20px;
+margin-left: 290px;
+padding: 10px;
+text-align: center;
+width: 350px;
+}
+.msg{
+margin: 0 auto;
+overflow: hidden;
+text-align: center;
+width: 350px;
+}
+.login_reg{
+width: 425px;
+background: #e7e7e7 none repeat scroll 0 0;
+border: 1px solid #d2d2d2;
+border-radius: 5px;
+margin: 0 auto;
+font-size: 16px;
+overflow: hidden;
+padding: 20px;
+}
+.random_table{
+width: 425px;
+background: #FFFFFF none repeat scroll 0 0;
+border: 1px solid #d2d2d2;
+margin: 0 auto;
+font-size: 16px;
+overflow: hidden;
+68
+i - Stock Management System
+padding: 20px;
+}
+input[type="text"],input[type="email"],input[type="password"]{
+border: 1px solid #d5d5d5;
+margin-bottom: 6px;
+margin-left: 10px;
+width: 285px;
+padding: 5px;
+}
+input[type="submit"],input[type="reset"]{
+background: #888 none repeat scroll 0 0;
+border: 1px solid #626262;
+border-radius: 3px;
+color: #fff;
+cursor: pointer;
+font-size: 15px;
+font-weight: bold;
+padding: 2px 5px;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+background: #333;
+}
+.back{
+text-align: center;
+}
+.back img{
+width: 90px;
+height: 40px;
+margin-top: 20px;
+}
+.userlist{
+background: #fff; none repeat scroll 0 0;
+border: 1px solid;
+color: 3399ff;
+font-weight: bold;
+margin: 0 auto 8px;
+overflow: hidden;
+padding: 4px 10px;
+text-align: center;
+width: 350px;
+}
+.menulist{
+background: #fff; none repeat scroll 0 0;
+border: 1px solid;
+color: 3399ff;
+font-weight: bold;
+margin: 0 auto 8px;
+overflow: hidden;
+padding: 4px 10px;
+69
+i - Stock Management System
+text-align: center;
+width: 100px;
+}
+table.tbl_one{
+margin: 0 auto;
+}
+table.tbl_one tr th{
+background: #888;
+color: #fff;
+padding: 3px 32px;
+text-shadow: 1px 1px 2px #000;
+}
+table.tbl_one tr:nth-child(2n+1){
+background: #e8e5e5;
+height: 30px;
+}
+table.tbl_one tr:nth-child(2n){
+background: #ddd;
+height: 30px;
+}
+table.tbl_one tr td a{
+color: #009bda;
+text-decoration: none;
+}
+table.tbl_one tr td a:hover{
+color: #003972;
+text-decoration: none;
+text-align: center;
+}
+.menu_content{
+float: left;
+}
+.menu_content ul{
+padding: 0;
+margin: 0;
+list-style: none;
+}
+.menu_content ul li{
+display: block;
+float: list;
+padding: 3px;
+}
+.menu_content ul li a{
+background: #818181 none repeat scroll 0 0;
+color: #fff;
+display: block;
+70
+i - Stock Management System
+width: 94px;
+font-weight: bold;
+margin-right: 1px;
+padding: 5px 10px;
+text-decoration: none;
+text-align: center;
+}
+.menu_content ul li a:hover{
+background: #666;
+}
+.login_msg{
+background: #43a322;
+color: #fff;
+display: block;
+line-height: 30px;
+margin: 0 auto 10px;
+text-align: center;
+width: 357px;
+}
+.tbl_wrapper{
+background: #e7e7e7 none repeat scroll 0 0;
+margin: 0 auto;
+font-size: 16px;
+overflow: hidden;
+}
+table.tbl_inv{
+margin: 0 auto;
+width: 800px;
+}
+table.tbl_inv tr th{
+background: #888;
+color: #fff;
+padding: 4px 2px;
+text-shadow: 1px 1px 2px #000;
+}
+table.tbl_inv tr td {
+background: #e8e5e5;
+height:40px;
+margin: 0 auto;
+text-align: center;
+}
+.cat_con{
+}
+.cat_con a{
+color: #009bda;
+text-decoration: none;
+}
+71
+i - Stock Management System
+.cat_con a:hover{
+color: #003972;
+text-decoration: none;
+text-align: center;
+}
+.login_invoice{
+width: 650px;
+background: #e7e7e7 none repeat scroll 0 0;
+border: 1px solid #d2d2d2;
+margin: 0 auto;
+font-size: 16px;
+overflow: hidden;
+padding: 0px;
+}
+table.tbl_invoice{
+margin: 0 auto;
+}
+table.invoice tr td {
+background: #e8e5e5;
+height:40px;
+text-align: center;
+}
